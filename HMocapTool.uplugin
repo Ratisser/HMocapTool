@@ -1,0 +1,21 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "H Mocap Tool",
+	"Category": "ProjectHI",
+	"CanContainContent": false,
+	"EnabledByDefault": false,
+	"Installed": false,
+	"Modules": [
+		{ "Name": "HMocapTool", "Type": "Editor", "LoadingPhase": "Default" }
+	],
+	"Plugins": [
+		{ "Name": "MetaHuman", "Enabled": true },
+		{ "Name": "MetaHumanCoreTech", "Enabled": true },
+		{ "Name": "CaptureManagerEditor", "Enabled": true },
+		{ "Name": "CaptureData", "Enabled": true },
+		{ "Name": "ControlRig", "Enabled": true },
+		{ "Name": "IKRig", "Enabled": true }
+	]
+}
